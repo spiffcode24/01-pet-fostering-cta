@@ -1,11 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pet Fostering</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PetQuest — Foster & Adopt</title>
+
+  <!-- Modern, easy-to-read font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link to the stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Content goes here -->
+  <!-- Simple site header -->
+  <header class="site-header" role="banner" aria-label="PetQuest site header">
+    <div class="site-header__inner">
+      <a class="site-title" href="#" aria-label="PetQuest home">PetQuest</a>
+    </div>
+  </header>
+
+  <!-- Call-to-action banner -->
+  <section class="cta-banner" role="region" aria-label="Call to action: foster or adopt a pet">
+    <div class="cta-content">
+      <h1 class="cta-title">Open Your Home — Foster a Rescue, Save a Life</h1>
+      <p class="cta-description">
+        Fostering gives rescue animals a safe place to heal and grow while they wait for forever homes.
+        Your temporary care makes permanent love possible.
+      </p>
+      <a class="cta-button" href="#" role="button">Start Fostering Today</a>
+    </div>
+  </section>
+
+  <!-- New two-column section below the banner -->
+  <section class="info-section" role="region" aria-label="Learn about fostering pets">
+    <div class="info-inner">
+      <!-- Left column: image -->
+      <div class="info-image" aria-hidden="false">
+        <img src="img/pet.jpg" alt="A happy dog available for fostering" />
+      </div>
+
+      <!-- Right column: informational content -->
+      <div class="info-text">
+        <h2 class="info-title">How Fostering Helps</h2>
+        <p>
+          Fostering provides short-term care and a safe space for animals recovering from trauma,
+          waiting for medical treatment, or simply needing a calm place to prepare for adoption.
+        </p>
+        <p>
+          As a foster you help shelters free up space, learn about each pet's personality, and give
+          animals the best chance to find a forever home.
+        </p>
+        <a class="info-cta" href="#" role="button">Learn How to Foster</a>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
